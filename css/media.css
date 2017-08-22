@@ -1,0 +1,143 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	html {
+		font-size: 2.0833333333333335vw;
+	}
+	.main {
+	height: 47.50416666666667vw;;
+}
+.main-overlay, .call-to-action-overlay {
+	height: 47.50416666666667vw;
+}
+
+.call-to-action-overlay {
+	height: 35.50416666666667vw;
+}
+	.header .logo {
+		width: 45.25vw;
+    }
+    .arrow-down img {
+    width: 1.8333333333333334vw;
+}
+.main-text span {
+	display: none;
+}
+.main-text h1 {
+	font-size: 6.479166666666667vw;
+}
+.main-text p {
+    letter-spacing: 0.1vw;
+    line-height: 3.5625vw;
+    font-size: 3.5vw;
+    width: 80%;
+}
+    .arrow-down {
+    line-height: 7.8645833333333335vw;
+    width: 7.604166666666667vw;
+    height: 7.604166666666667vw;
+}
+.table-header {
+    margin-bottom: 1rem;
+}
+
+    .table-header span {
+		font-size: 3vw;
+}
+    .table-header h2 {
+		font-size: 7.25vw;
+		margin: 1rem 0 0.5rem 0;
+}
+.table-header p {
+    font-size: 4vw;
+    line-height: 5vw;
+    width: 30rem;
+}
+	.visible-lg {
+		display: none;
+	}
+	.m-menu-link {
+		display: block;
+	}
+	.get-started-btn {
+		margin: 0;
+	}
+	.price-tags {
+		flex-direction: column;
+	}
+	.price-tag {
+		width: 80%;
+		margin: 2rem auto;
+		height: 90.25vw;
+	}
+	.price-tag img {
+    width: 20.058333333333334vw;
+}
+.price-tag span {
+    font-size: 5.875vw;
+}
+.price-tag h4 {
+    font-size: 5.5rem;
+}
+
+.price-tag p {
+    font-size: 3.5vw;
+	line-height: 3.5718309859154928vw;
+}
+.price-btn {
+    font-size: 1.2rem;
+    padding: 2.108450704225352vw 4.473239436619718vw 2.5vw;
+}
+
+.call-to-action {
+    padding: 9.114583333333334vw 0 9.375vw;
+    height: 35.50416666666667vw;
+}
+.call-to-action .wrap span {
+    font-size: 2.7291666666666667vw;
+}
+.call-to-action .wrap h4 {
+    font-size: 6.125vw;
+}
+
+
+.cta-btn {
+width: 21.895833333333334vw;
+height: 9.604166666666667vw;
+font-size: 2.2vw;
+}
+.footer .logo {
+    width: 30.708333333333334vw;
+}
+
+	.footer {
+		justify-content: center;
+	}
+	.footer-menu {
+		display: none;
+	}
+	.social-links {
+		padding-top: 3rem;
+	}
+	.social-links a {
+		font-size: 3rem;
+	}
+	.legal {
+		flex-direction: column;
+		padding-bottom: 5rem;
+	}
+}
